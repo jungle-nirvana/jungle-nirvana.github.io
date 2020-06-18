@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    --very-dark-background: #292a2a;
+
+    --moderate-font-size: 6rem;
+    --small-font-size: 4rem;
+    --tiny-font-size: 2rem;
+}
+
+/* Start Introduction */
+
+.introduction {
+    height: 100vh;
+    background-image: url("/images/main_background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.introduction .title {
+    position: absolute;
+    bottom: 6rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-text-stroke: 2px black;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: var(--moderate-font-size);
+}
+
+/* End Introduction */
+
+/* Start Copyright */
+
+.introduction .copyright {
+    width: 100%;
+    position: absolute;
+    background-color: var(--very-dark-background);
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    bottom: 0rem;
+}
+
+/* End Copyright */
+
+@media screen and (max-width: 850px) {
+    .title h1 {
+        font-size: var(--small-font-size);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title h1 {
+        font-size: var(--tiny-font-size);
+    }
+}
