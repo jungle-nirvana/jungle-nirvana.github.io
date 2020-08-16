@@ -41,3 +41,31 @@
 	#main #sidebar .major h2 {
 		font-size: 1.6em;
 	}
+
+/* Specifics */
+#banner h2 {
+	display: inline-block;
+	padding: 0.50em 0.30em;
+	-webkit-text-stroke: 0.8px black;
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.coming_soon h2 {
+	display: inline-block;
+	padding: 0.50em 0.30em;
+	-webkit-text-stroke: 0.8px black;
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.work_principles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.core_item {
+	width: 100%;
+}
