@@ -51,6 +51,17 @@
 	font-weight: 400;
 }
 
+#banner p {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	font-size: 1rem;
+    padding: 0 1rem;
+	font-weight: 400;
+	width: 100%;
+    background-color: rgba(125, 125, 125, 0.6);
+    border-radius: 0.4rem;
+}
+
 .coming_soon h2 {
 	display: inline-block;
 	padding: 0.50em 0.30em;
@@ -67,6 +78,17 @@
 }
 
 .core_item {
+	width: 100%;
+}
+
+/* Team */
+.team_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team_item {
 	width: 100%;
 }
 
@@ -126,7 +148,7 @@
 }
 
 .idea_benefit .core_item h3 {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .benefit_container {
@@ -151,3 +173,5 @@
 .sidebar_container {
 	width: 100%;
 }
+
+

@@ -129,7 +129,6 @@ article.special {
 header.major {
     padding-bottom: 3em;
     text-align: center;
-    text-transform: uppercase;
 }
 
 header.major h2 {
@@ -885,8 +884,8 @@ input[type="button"].small,
 }
 
 .idea_col {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .social_issues {
@@ -920,8 +919,8 @@ input[type="button"].small,
 
 .idea_solution .core_item h3 {
     font-size: 1.2rem;
-	text-transform: unset;
-	font-weight: 400;
+    text-transform: unset;
+    font-weight: 400;
 }
 
 .idea_benefit {
@@ -936,9 +935,9 @@ input[type="button"].small,
 }
 
 .idea_benefit .core_item h3 {
-	font-size: 1.2rem;
-	text-transform: unset;
-	font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: unset;
+    font-weight: 400;
 }
 
 .benefit_container {
@@ -946,5 +945,36 @@ input[type="button"].small,
 }
 
 .sidebar_container {
-	width: 40%;
+    width: 40%;
+}
+
+.timeline_outer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: white;
+}
+
+.timeline_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.timeline_container h2 {
+    text-transform: uppercase;
+    font-size: 2.6rem;
+}
+
+.timeline_img {
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin: 0.8rem 0;
+    width: 100%;
+}
+
+.timeline_img img {
+    max-width: 100%;
 }
