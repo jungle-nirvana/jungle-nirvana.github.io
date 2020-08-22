@@ -11,6 +11,13 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+
+		<script>
+            $(function () {
+                $("#footer").load("html/footer.html");
+            });
+		</script>
+		
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -34,28 +41,9 @@
 							<nav id="nav">
 								<ul>
 									<li class="active"><a href="index.html">Home</a></li>
-									<!-- <li>
-										<a href="">Dropdown</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-											<li>
-												<a href="">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-													<li><a href="#">Veroeros feugiat</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li> -->
-									<li><a href="coming_soon.html">Idea</a></li>
-									<li><a href="coming_soon.html">What We Do</a></li>
-									<li><a href="coming_soon.html">Contact Us</a></li>
+									<li><a href="idea.html">Idea</a></li>
+									<li><a href="what-we-do.html">What We Do</a></li>
+									<li><a href="coming_soon.html">Team</a></li>
 								</ul>
 							</nav>
 	
@@ -72,26 +60,7 @@
 	</div>
 
 	<!-- Footer -->
-    <div id="footer">
-        <section class="container">
-            <header class="major">
-                <h2>Connect with us</h2>
-                <span class="byline">We'd love to hear from you</span>
-            </header>
-            <ul class="icons">
-                <li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-                <li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
-                <li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
-                <li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
-            </ul>
-            <hr />
-        </section>
-        
-        <!-- Copyright -->
-            <div id="copyright">
-                &copy; 2020 Jungle Nirvana
-            </div>			
-    </div>
+    <div id="footer"></div>
 
 	</body>
 </html>

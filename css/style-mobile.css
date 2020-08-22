@@ -69,3 +69,85 @@
 .core_item {
 	width: 100%;
 }
+
+/* Idea */
+.idea_row {
+    display: flex;
+    flex-direction: column;
+}
+
+.idea_col {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.social_issues {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social_issue_item {
+    width: 100%;
+}
+
+.social_issue_item p {
+    font-size: 1.2rem;
+}
+
+.idea_content p {
+    font-size: 1.2rem;
+}
+
+.idea_solution {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.idea_solution .core_item {
+    width: 100%;
+}
+
+.idea_solution .core_item h3 {
+    font-size: 1rem;
+}
+
+.idea_benefit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.idea_benefit .core_item {
+    width: 100%;
+}
+
+.idea_benefit .core_item h3 {
+    font-size: 0.8rem;
+}
+
+.benefit_container {
+	margin-top: 0;
+	width: 100%;
+}
+
+.solution_container {
+	margin-top: 0;
+	width: 100%;
+}
+
+.social_container {
+	margin-top: 0;
+	width: 100%;
+}
+
+.idea_content {
+	width: 100%;
+}
+
+.sidebar_container {
+	width: 100%;
+}

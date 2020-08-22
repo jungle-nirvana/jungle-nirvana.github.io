@@ -14,17 +14,28 @@
         <script src="js/skel-layers.min.js"></script>
         <script src="js/init.js"></script>
 
+        <script>
+            $(function () {
+                $("#footer").load("html/footer.html");
+            });
+        </script>
+
         <noscript>
             <link rel="stylesheet" href="css/skel.css" />
             <link rel="stylesheet" href="css/style.css" />
         </noscript>
 
         <link rel="shortcut icon" href="files/favicon.ico" />
+        <link
+            href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+            rel="stylesheet"
+        />
         <!--[if lte IE 8
             ]><link rel="stylesheet" href="css/ie/v8.css"
         /><![endif]-->
     </head>
     <body class="homepage">
+        <!-- Header -->
         <!-- Header Wrapper -->
         <div class="wrapper style1">
             <!-- Header -->
@@ -39,33 +50,13 @@
                             <li class="active">
                                 <a href="index.html">Home</a>
                             </li>
-                            <!-- <li>
-										<a href="">Dropdown</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-											<li>
-												<a href="">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-													<li><a href="#">Veroeros feugiat</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li> -->
-                            <li><a href="coming_soon.html">Idea</a></li>
-                            <li><a href="coming_soon.html">What We Do</a></li>
-                            <li><a href="coming_soon.html">Contact Us</a></li>
+                            <li><a href="idea.html">Idea</a></li>
+                            <li><a href="what-we-do.html">What We Do</a></li>
+                            <li><a href="coming_soon.html">Team</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-
             <!-- Banner -->
             <div id="banner">
                 <section class="container">
@@ -83,26 +74,26 @@
                         <header class="major">
                             <h2>About Us</h2>
                             <span class="byline"
-                                >Junglenirvana is a Non-Profit Organization
+                                >Jungle Nirvana is a Non-Profit Organization
                                 converting barren land into native, preservation
-                                free forest. Started in May 2020, Junglenirvana
-                                is a initiative of Shraddha Humanitarian
+                                free forest. Started in May 2020, Jungle Nirvana
+                                is an initiative of Shraddha Humanitarian
                                 society.</span
                             >
                         </header>
                     </div>
                     <div class="6u">
                         <header class="major">
-                        <h2>Our Purpose</h2>
-                        <span class="byline">
-                            To Convert barren land into forest boosting safe
-                            heaven for wildlife and grow Ecosystem which will
-                            create livelihood and path of nirvana for the
-                            community. Shraddha Humanitarian trust is governed
-                            by a Board of Trustees under its President, Dr Ajay
-                            Shesh.
-                        </span>
-                    </header>
+                            <h2>Our Purpose</h2>
+                            <span class="byline">
+                                To Convert barren land into forest, boosting
+                                safe heaven for wildlife and growing ecosystem
+                                which will create livelihood for the community.
+                                Shraddha Humanitarian trust is governed by a
+                                Board of Trustees under its President, Dr Ajay
+                                Shesh.
+                            </span>
+                        </header>
                         <a href="files/ExamSchedule.pdf" class="button"
                             >Download Booklet</a
                         >
@@ -123,7 +114,7 @@
                             ><img src="images/ajay_shesh.jpeg" alt=""
                         /></a>
                         <h3>Ajay Shesh</h3>
-                        <p>Managing Director</p>
+                        <p>President</p>
                     </div>
                     <div class="3u">
                         <a href="#" class="image"
@@ -154,52 +145,61 @@
                             ><img src="images/ajay_dolke.jpeg" alt=""
                         /></a>
                         <h3>Ajay Dolke</h3>
-                        <p>Naturalist - Bamboo Expert</p>
+                        <p>Naturalist - Forest Specialist</p>
                     </div>
                     <div class="3u">
                         <a href="#" class="image"
                             ><img src="images/sarang_mahajan.jpg" alt=""
                         /></a>
                         <h3>Sarang Mahajan</h3>
-                        <p>Originator & Innovator</p>
+                        <p>Founder</p>
                     </div>
                 </div>
             </section>
-		</div>
-		
-		<!-- General Work Principles -->
+        </div>
+
+        <!-- General Work Principles -->
         <div class="wrapper style4">
             <section class="container">
                 <header class="major">
                     <h2>General Work Principles</h2>
                 </header>
-                        <ul class="special-icons work_principles">
-                            <li class="core_item">
-                                <span class="fa fa-cogs"></span>
-                                <h3>Core Values</h3>
-                                <p>
-                                    Our shared core values of honesty, integrity and respect for people underpin all the work we do and are the foundation of our Organization.
-                                </p>
-                            </li>
-                            <li class="core_item">
-                                <span class="fa fa-wrench"></span>
-                                <h3>Business Principles</h3>
-                                <p>
-                                    Principles apply to all transactions, large or small, and drive the behavior expected of every  member of organization in the conduct of its business at all times.
-                                </p>
-                            </li>
-                            <li class="core_item">
-                                <span class="fa fa-leaf"></span>
-                                <h3>Sustainable Development</h3>
-                                <p>
-                                    As part of the Business Principles, we commit to contribute to sustainable development. This requires balancing short- and long-term interests, integrating economic, environmental and social considerations into business decision-making.
-                                </p>
-                            </li>
-                        </ul>
+                <ul class="special-icons work_principles">
+                    <li class="core_item">
+                        <span class="fa fa-cogs"></span>
+                        <h3>Core Values</h3>
+                        <p>
+                            Our shared core values of honesty, integrity and
+                            respect for people underpin all the work we do and
+                            are the foundation of our Organization.
+                        </p>
+                    </li>
+                    <li class="core_item">
+                        <span class="fa fa-wrench"></span>
+                        <h3>Business Principles</h3>
+                        <p>
+                            Principles apply to all transactions, large or
+                            small, and drive the behavior expected of every
+                            member of organization in the conduct of its
+                            business at all times.
+                        </p>
+                    </li>
+                    <li class="core_item">
+                        <span class="fa fa-leaf"></span>
+                        <h3>Sustainable Development</h3>
+                        <p>
+                            As part of the Business Principles, we commit to
+                            contribute to sustainable development. This requires
+                            balancing short- and long-term interests,
+                            integrating economic, environmental and social
+                            considerations into business decision-making.
+                        </p>
+                    </li>
+                </ul>
             </section>
         </div>
 
-        <!-- Section Partners --> 
+        <!-- Section Partners -->
         <div class="wrapper style5">
             <section id="team" class="container">
                 <header class="major">
@@ -220,37 +220,20 @@
                     </div>
                     <div class="3u">
                         <a href="#" class="image"
-                            ><img src="images/placeholder.png" alt=""
+                            ><img src="images/rd_pathlabs.jpeg" alt=""
                         /></a>
                         <h3>RD Pathlabs</h3>
                     </div>
                     <div class="3u">
                         <a href="#" class="image"
-                            ><img src="images/placeholder.png" alt=""
+                            ><img src="images/srujan.jpg" alt=""
                         /></a>
-                        <h3>Our esteemed Partner</h3>
+                        <h3>SRUJAN</h3>
                     </div>
                 </div>
             </section>
-		</div>              
-
-        <!-- Footer -->
-        <div id="footer">
-            <section class="container">
-                <header class="major">
-                    <h2>Connect with us</h2>
-                    <span class="byline">We'd love to hear from you</span>
-                </header>
-                Address: Mumbai, Maharashtra, India
-                <br>
-                Email: <a href="mailto:info@junglenirvana.com">info@junglenirvana.com</a>
-                <hr />
-            </section>
-
-            <!-- Copyright -->
-            <div id="copyright">
-                &copy; 2020 Jungle Nirvana
-            </div>
         </div>
+
+        <div id="footer"></div>
     </body>
 </html>
