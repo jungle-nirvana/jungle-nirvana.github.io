@@ -11,6 +11,7 @@
 
 body {
     background: #222222;
+    display: block !important;
 }
 
 body.loading * {
