@@ -128,7 +128,7 @@ article.special {
 }
 
 header.major {
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     text-align: center;
 }
 
@@ -777,7 +777,7 @@ input[type="button"].small,
 /* Main */
 
 #main {
-    padding: 4em 0;
+    padding: 2em 0;
 }
 
 #main #content .major,
@@ -804,7 +804,7 @@ input[type="button"].small,
 /* Footer */
 
 #footer {
-    padding: 4rem 0;
+    padding: 1.6rem 0;
     text-align: center;
     color: white;
 }
@@ -978,4 +978,44 @@ input[type="button"].small,
 
 .timeline_img img {
     max-width: 100%;
+}
+
+/* Nirvana Arts */
+
+.painting_container p {
+    font-size: 1.6rem;
+    color: black;
+}
+
+.painting_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.painting_core {
+    display: flex;
+    flex-direction: column;
+    margin: 0.8rem;
+}
+
+.painting_core img {
+    
+    align-self: center;
+}
+
+.painting_core .square_painting {
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+.painting_section_header h2 {
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+.painting_core h2 {
+    margin: 0.4rem 0;
+    text-align: center;
 }
