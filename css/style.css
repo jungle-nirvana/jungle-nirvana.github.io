@@ -1010,6 +1010,11 @@ input[type="button"].small,
     max-height: 20rem;
 }
 
+.painting_core .rectangular_painting {
+    max-width: 30rem;
+    max-height: 20rem;
+}
+
 .painting_section_header h2 {
     line-height: 2rem;
     margin-top: 2rem;

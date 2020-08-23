@@ -188,8 +188,13 @@
 }
 
 .painting_core .square_painting {
+    width: 16rem;
+    height: 16rem;
+}
+
+.painting_core .rectangular_painting {
     width: 18rem;
-    height: 18rem;
+    height: 12rem;
 }
 
 /* Dream Team */
