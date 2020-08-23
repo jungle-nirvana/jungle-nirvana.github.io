@@ -1019,3 +1019,55 @@ input[type="button"].small,
     margin: 0.4rem 0;
     text-align: center;
 }
+
+/* Dream Team */
+
+.wrapper.style4.outer_team_member_box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.wrapper.style4 .outer_container {
+    align-self: center;
+    width: 90%;
+}
+
+.team_member {
+    display: flex;
+    flex-direction: row;
+}
+
+.team_member_image {
+    margin: 4rem 4rem 0 0;
+}
+
+.team_member_image img {
+    width: 12rem;
+    height: 12rem;
+}
+
+.member_information {
+    margin: 4rem;
+}
+
+.member_information ul {
+    list-style-position: inside;
+    list-style: square;
+    margin: 0 0 0 2rem;
+}
+
+.member_information li {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.image_grid {
+    width: 40rem;
+    margin: 4rem 0 0 4rem;
+}
+
+.image_grid_item {
+    width: 20rem;
+    height: 15rem;
+}
