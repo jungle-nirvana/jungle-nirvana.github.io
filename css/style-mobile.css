@@ -249,3 +249,13 @@
 	align-self: center;
 	margin: 2rem;
 }
+
+/* Timeline */
+.timeline_container {
+	width: 100%;
+}
+
+.timeline_container h2 {
+    font-size: 1.6rem;
+    height: 1.2rem;
+}
