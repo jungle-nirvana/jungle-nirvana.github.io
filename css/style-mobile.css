@@ -187,14 +187,20 @@
     justify-content: center;
 }
 
+.painting_core img {
+    max-width: auto;
+    max-height: 100%;
+    align-self: center;
+}
+
 .painting_core .square_painting {
     width: 16rem;
     height: 16rem;
 }
 
 .painting_core .rectangular_painting {
-    width: 18rem;
-    height: 12rem;
+    max-width: 100%;
+    max-height: auto;
 }
 
 /* Dream Team */
