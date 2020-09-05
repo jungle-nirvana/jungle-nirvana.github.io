@@ -985,6 +985,22 @@ input[type="button"].small,
     color: black;
 }
 
+.painting_container a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: rgb(34, 119, 0);
+}
+
+.painting_container li {
+    margin: 0 0 0.4rem 0;
+}
+
+.painting_container h3 {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+
 .painting_row {
     display: flex;
     flex-direction: row;
@@ -1010,8 +1026,8 @@ input[type="button"].small,
 }
 
 .painting_core .rectangular_painting {
-    max-width: 30rem;
-    max-height: 20rem;
+    width: 30rem;
+    height: 20rem;  
 }
 
 .painting_section_header h2 {

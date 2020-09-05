@@ -178,7 +178,14 @@
 
 .painting_container p {
     font-size: 1rem;
-    color: black;
+}
+
+.painting_container a {
+	font-size: 1rem;
+}
+
+.painting_container h3 {
+    font-size: 1rem;
 }
 
 .painting_row {
@@ -200,7 +207,7 @@
 
 .painting_core .rectangular_painting {
     max-width: 100%;
-    max-height: auto;
+    height: auto;
 }
 
 /* Dream Team */
