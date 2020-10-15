@@ -59,7 +59,7 @@ ol,
 dl,
 table,
 blockquote {
-    margin: 0 0 2em 0;
+    margin: 0 0 0.2rem 0;
 }
 
 p {
@@ -436,12 +436,12 @@ input[type="button"],
     color: #82b440;
     cursor: pointer;
     display: inline-block;
-    padding: 0.9em 1.2em;
+    padding: 0.4em 1.2em;
     letter-spacing: 1px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.4em;
+    font-size: 1rem;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -560,7 +560,7 @@ input[type="button"].small,
 }
 
 .wrapper.style4 .container {
-    width: 80%;
+    width: 85%;
 }
 
 .work_principles {
@@ -1091,4 +1091,44 @@ input[type="button"].small,
 .image_grid_item {
     width: 20rem;
     height: 15rem;
+}
+
+/* Products Styling */
+
+.products_outer_container a {
+    color: black;
+    text-decoration: none;
+}
+
+.products_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.product_item .product_image_container img {
+    height: 16rem;
+    width: 10rem;
+    margin: 0 2.4rem 0 0;
+}
+
+.product_item .product_description_container {
+    flex-grow: 2;
+}
+.product_item .product_description_container .product_benefits {
+    padding-left: 1rem;
+}
+
+.product_description_container .button {
+    margin-top: 0.5rem;
+}
+
+.product_description_container h3 {
+    text-align: center;
 }
